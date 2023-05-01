@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+@media (max-width: 650px){
+    div.conteiner{
+        margin-top: 50x;
+    }
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(202, 25%, 54%);
+    display: grid;
+    place-items: center;
+}
+div.conteiner{
+    padding: 1.5rem;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;  
+    position:relative;
+    text-align: center;
+}
+h1.title{
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-family: 'Ubuntu';
+}
+p.parrafo{
+    font-size: 0.9rem;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+}
